@@ -46,7 +46,7 @@ module.exports = {
       const ctx = canvas.getContext("2d");
 
       // ✅ Use your given background
-      const background = await loadImage("https://files.catbox.moe/29jl5s.jpg");
+      const background = await loadImage("https://i.postimg.cc/pdv5dFVX/611905695-855684437229208-8377464727643815456-n.png");
       ctx.drawImage(background, 0, 0, width, height);
 
       // Load profile pictures
