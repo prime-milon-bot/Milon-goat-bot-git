@@ -114,7 +114,7 @@ module.exports = {
       msg += `\n━━━━━━━━━━━━━━\n`;
       msg += `🔢 Total Commands: ${total}\n`;
       msg += `⚡ Prefix: ${prefix}\n`;
-      msg += `👑 Owner: Aphelion`;
+      msg += `👑 Owner: 𝗠𝗶𝗹𝗼𝗻 𝗛𝗮𝘀𝗮𝗻`;
 
       return message.reply(msg);
     }
@@ -147,7 +147,7 @@ module.exports = {
 ⚙️ Version : ${c.version || "1.0"}
 🔐 Permission : ${roleText(c.role)}
 ⏱️ Cooldown : ${c.countDown || 5}s
-👑 Author : ${c.author || "Unknown"}
+👑 Author : ${c.author || "𝗠𝗶𝗹𝗼𝗻 𝗛𝗮𝘀𝗮𝗻"}
 📖 Usage : ${usage}
 ╰───────────────────╯`;
 
